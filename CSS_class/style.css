@@ -27,14 +27,6 @@ body{
   text-align: right;
 }
 
-#footer{
-  color:black;
-  font-family:Georgia,"Times New Roman", serif;
-  font-size:0.8em;
-  font-style:italic;
-  border-top:1px solid black;
-}
-
 #nav{
   padding: 0;
 }
@@ -60,5 +52,16 @@ body{
 }
 
 #nav a:hover, a:active {
-  
+  background-color: #7a991a;
+}
+
+#footer {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+}
+
+img {
+  border-style: none;
 }
