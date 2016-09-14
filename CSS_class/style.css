@@ -34,3 +34,31 @@ body{
   font-style:italic;
   border-top:1px solid black;
 }
+
+#nav{
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+
+#nav a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+  
+}
