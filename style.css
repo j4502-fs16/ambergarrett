@@ -110,15 +110,18 @@ font-family: 'Noto Serif', "Times New Roman", serif;
 p{
 font-family: 'Catamaran', Arial, serif;
 padding-left: 10px;
+padding-right: 10px;
+text-align: left;
+max-width: 800px;
 }
 
-img {
+img{
   border-style: none;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-hr {
+hr{
   background: #3a9fbf;
   width: 95%;
   height: 4px;
@@ -131,7 +134,7 @@ hr {
     padding-left: 30px;
 }
 
-@media (min-width:800px){
+@media all and (min-width:800px){
   .nav{
     flex-flow: row;
     justify-content: space-around;
@@ -158,5 +161,11 @@ hr {
     display: flex;
     flex-flow: row;
     padding-left: 10px;
+  }
+}
+
+@media all and (min-width: 1100px){
+  .aside{
+    display: none;
   }
 }
