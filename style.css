@@ -127,6 +127,20 @@ hr{
   height: 4px;
 }
 
+.map-wrapper{
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+.map-wrapper iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .footer {
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     font-weight: 300;
@@ -167,12 +181,13 @@ header{
     border-bottom: none;
   }
   .aside{
+    display: none;
     flex:1 auto;
-    order: 1;
+    order: 2;
   }
   .main{
     flex: 3 0px;
-    order: 2;
+    order: 1;
   }
 
   .main{
@@ -191,6 +206,18 @@ header{
     padding-top: 30px;
     padding-left: 20px;
   }
+
+  .map-wrapper{
+    position: relative;
+    padding-right: 50%;
+  }
+
+  .map-wrapper iframe{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+  }
 }
 
 @media all and (min-width: 1100px){
@@ -198,6 +225,6 @@ header{
     display: none;
   }
   .menu-trigger{
-    display: hidden;
+    display: none;
   }
 }
